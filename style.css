@@ -3156,7 +3156,7 @@ footer {
 .thesis-section {
   width: min(100%, 1480px);
   margin: 0 auto;
-  padding: 92px clamp(22px, 3.2vw, 54px) 96px;
+  padding: 92px 0 96px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -3172,11 +3172,10 @@ footer {
 .projects-section-heading {
   width: min(100%, 1480px);
   margin: 0 auto;
-  padding: 92px clamp(22px, 3.2vw, 54px) 0;
+  padding: 184px 0 0;
 }
 
 .projects-section-rule {
-  margin-inline: calc(0px - clamp(22px, 3.2vw, 54px));
   border-top: 1px solid var(--line);
 }
 
@@ -3594,6 +3593,7 @@ footer {
 #readly.case { padding-top: 34px; }
 
 @media (max-width: 640px) {
-  .projects-section-heading { padding-top: 64px; }
+  .projects-section-heading { padding-top: 128px; }
+  .thesis-section { padding: 64px 0 68px; }
   #readly.case { padding-top: 34px; }
 }
