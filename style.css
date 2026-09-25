@@ -3178,7 +3178,7 @@ footer {
 
 .thesis-list {
   display: grid;
-  gap: 46px;
+  gap: 62px;
 }
 
 .thesis-card {
@@ -3209,6 +3209,11 @@ footer {
   line-height: 1.18;
   letter-spacing: -0.045em;
   font-weight: 500;
+}
+
+#thesis-news h3 {
+  max-width: 1120px;
+  text-wrap: balance;
 }
 
 .thesis-status {
@@ -3401,11 +3406,10 @@ footer {
 #readly .readly-evaluation {
   margin-top: 48px;
   padding-top: 42px;
-  border-top: 1px solid var(--line);
 }
 
 #readly .readly-evaluation + .detail-flow {
-  margin-top: 64px;
+  margin-top: 80px;
 }
 
 #readly .readly-evaluation-intro {
