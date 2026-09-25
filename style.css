@@ -3176,6 +3176,7 @@ footer {
 }
 
 .projects-section-rule {
+  margin-inline: calc(0px - clamp(22px, 3.2vw, 54px));
   border-top: 1px solid var(--line);
 }
 
