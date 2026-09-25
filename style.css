@@ -3211,6 +3211,13 @@ footer {
   font-weight: 500;
 }
 
+.thesis-status {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
 .text-link {
   display: inline-flex;
   align-items: center;
@@ -3395,6 +3402,10 @@ footer {
   margin-top: 48px;
   padding-top: 42px;
   border-top: 1px solid var(--line);
+}
+
+#readly .readly-evaluation + .detail-flow {
+  margin-top: 64px;
 }
 
 #readly .readly-evaluation-intro {
